@@ -1,7 +1,10 @@
-# README
+# KOM
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Keep Our Memory
+
+Backup all photo from facebook to google drive!
+
+This site was build by `ruby on rails`
 
 Things you may want to cover:
 
