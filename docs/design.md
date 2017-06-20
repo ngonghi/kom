@@ -17,7 +17,7 @@ Facebookの自分の投稿した画像をGoogle Driveに移動する。
 ## サイトマップ
 - /login: Facebookアカウントをログインするページ
 - /albums: アルバム一覧ページ
-	- /photos/{album_id}: アルバムの一覧画像ページ
+	- /album/{album_id}: アルバムの一覧画像ページ
 - /slide_show: スライドショー
 
 ## 設計

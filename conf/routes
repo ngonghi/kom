@@ -3,12 +3,21 @@
 # This file defines all application routes (Higher priority routes first)
 #
 
+# [METHOD] [URL Pattern] [Controller.Action]
+
 module:testrunner
 # module:jobs
 
-GET     /login                                       Kom.Login
+GET     /                                       PhotoController.getListAlbum
 
-GET     /
+GET     /login                                  LoginController.getLogin
+POST    /login                                  LoginController.doLogin
+GET     /logout                                 LoginController.doLogout
+
+GET     /albums                                 PhotoController.getListAlbum
+GET     /album/:id                              PhotoController.getListPhoto
+
+GET     /slide_show                             SlideController:getPhoto
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
